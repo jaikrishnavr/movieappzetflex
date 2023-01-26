@@ -12,7 +12,7 @@ const Movie = () => {
     }, [])
 
     const getData = () => {
-        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US`)
+        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=b3ce245373411d5459463c2fe1623011&language=en-US`)
         .then(res => res.json())
         .then(data => setMovie(data))
     }
