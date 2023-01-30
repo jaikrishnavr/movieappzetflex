@@ -51,3 +51,21 @@
     text-align: left;
     width: 50%;
 }
+
+
+@media (max-width: 660px) {
+    .posterImage__title {
+        font-weight: 300;
+        font-size: 2rem;
+        margin-bottom: 0.4rem;
+        text-align: left;
+    }
+    .posterImage__description {
+        font-style: italic;
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+        display: flex;
+        text-align: center;
+        width: 100%;
+    }
+  }
